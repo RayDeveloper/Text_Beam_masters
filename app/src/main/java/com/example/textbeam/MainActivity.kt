@@ -49,16 +49,16 @@ class MainActivity : AppCompatActivity() {
         }
 
        // mContent = findViewById<EditText>(R.id.texters)
-
+        //text
 
 
         val inputOne = findViewById<View>(R.id.texters) as EditText
         val message = inputOne.text.toString()
 
         if(message.trim().isNotEmpty()) {
-            Toast.makeText(this, message, Toast.LENGTH_LONG).show();
+            Toast.makeText(this, message, Toast.LENGTH_LONG).show()
         }else{
-            Toast.makeText(this, "Text field is empty", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, "Text field is empty", Toast.LENGTH_LONG).show()
         }
 
         //Toast.makeText(this, message, Toast.LENGTH_LONG).show();
