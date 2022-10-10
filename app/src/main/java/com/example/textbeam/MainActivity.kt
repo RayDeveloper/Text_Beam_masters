@@ -33,6 +33,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
 
         //setContentView(R.layout.content_main)
+        //raydon
 
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
@@ -48,8 +49,9 @@ class MainActivity : AppCompatActivity() {
                     .setAction("Action", null).show()
         }
 
-       // mContent = findViewById<EditText>(R.id.texters)
-        //text
+    /// i need to use the google help files
+
+
 
 
         val inputOne = findViewById<View>(R.id.texters) as EditText
